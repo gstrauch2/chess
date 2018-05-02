@@ -87,10 +87,6 @@ int main() {
     makeBoard(chrChess);
     print(chrChess);
 
-    // once again "free(): invalid size" problem
-    // will work fine without but that will be a memory leak
-    delete chrChess;
-
     return 0;
 
 }
